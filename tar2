@@ -1,0 +1,5 @@
+dt=`date +%Y%m%d-%H%M`
+#echo $dt.zip
+#zip -r ../contactlistapp_$dt.zip * -x node_modules/\*
+tar zcvf ../contactlistapp_$dt.tgz . --exclude='./node_modules'
+tar tvf ../contactlistapp_$dt.tgz
