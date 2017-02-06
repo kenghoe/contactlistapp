@@ -1,0 +1,8 @@
+# exclude everything except directory foo/bar
+/*
+!public
+!README.md
+!server*.js
+!tar2
+!zip2
+!.gitignore
